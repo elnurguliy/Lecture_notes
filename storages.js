@@ -13,15 +13,26 @@ function addEventListeners() {
 
 function saveUserInfo(event) {
     event.preventDefault();
-    const nameInput = document.getElementById("name");
-    localStorage.setItem("name", nameInput.value);
+
+    let firstname = document.getElementById("firstname").value;
+    let lastname = document.getElementById("lastname").value;
+    let age = document.getElementById("age").value;
+    let spouse = document.getElementById("spouse").value;
+    let salary = document.getElementById("salary").value;
+
+    localStorage.setItem("firstname", firstname);
+    localStorage.setItem("lastname", lastname);
+    localStorage.setItem("age", age);
+    localStorage.setItem("spouse", spouse);
+    localStorage.setItem("salary", salary);
+
+    // window.location.href = "index2.html";
     
-    loadUserInfo();
 }
 
 function loadUserInfo() {
     // const name = localStorage.name;
-    const name = localStorage.getItem("name")
+    const name = localStorage.getItem("firstname")
 
     if(name) {
         userGreeting.textContent = "Welcome back " + name;
