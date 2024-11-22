@@ -110,11 +110,10 @@ function drawPortrait() {
     ctx.stroke();
 
     ctx.beginPath();
-    ctx.arc(140, 180, 10, Math.PI, 2 * Math.PI, false);
-    ctx.arc(160, 180, 10, Math.PI, 2 * Math.PI, false);
+    ctx.arc(135, 180, 15, Math.PI, 2 * Math.PI, false);
+    ctx.arc(165, 180, 15, Math.PI, 2 * Math.PI, false);
     ctx.fillStyle = "#000000";
     ctx.fill();
-    ctx.stroke();
 
 
 }
