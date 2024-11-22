@@ -57,7 +57,7 @@ function drawPortrait() {
     // **1. Rita ansiktets huvudform**
     ctx.beginPath();
     ctx.arc(150, 150, 100, 0, 2 * Math.PI); // Cirkeln för ansiktet
-    ctx.fillStyle = "#FFCC99"; // Hudfärg
+    ctx.fillStyle = "#636363"; // Hudfärg
     ctx.fill();
     ctx.stroke();
 
