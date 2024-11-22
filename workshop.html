@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Calculator</title>
+    <script src="workshop.js"></script>
+
+    <style>
+        img {
+            position: fixed;
+            width: 150px;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h1>Exchange Calculator</h1>
+        <form id="exchange-form">
+            <label for="amount">Enter an amount in SEK:</label>
+            <input type="number" id="amount" name="amount" placeholder="Enter amount" required>
+            <button type="submit">Calculate</button>
+        </form>
+
+        <p id="result-text"></p>
+        <ul id="result-list"></ul>
+
+        <div id="result">
+            <!-- Result will be displayed here -->
+        </div>
+    </section>
+
+    <section>
+        <img id="bird" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGFvajR1MmhhNHp2ZXd5YnpjeGZhODc4ZjAyd2M0eXhxYzk0cmh6OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CkOdtXDKcgOwA6qOPK/giphy.gif" alt="flying-bird">
+
+    </section>
+</body>
+
+</html>
