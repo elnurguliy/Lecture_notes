@@ -1,7 +1,7 @@
 
-// // //FÖRELÄSNING GENOMGÅNG START
+//FÖRELÄSNING GENOMGÅNG START
 
-// // //Kör main funktionen när domen är laddad.
+//Kör main funktionen när domen är laddad.
 window.addEventListener("DOMContentLoaded", main);
 
 
@@ -34,7 +34,7 @@ function saveTodo(){
     renderToDoList();
 }
 
-// //FÖRELÄSNING GENOMGÅNG SLUT
+//FÖRELÄSNING GENOMGÅNG SLUT
 
 
 
